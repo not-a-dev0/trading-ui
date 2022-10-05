@@ -1,0 +1,317 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-scripts-ts > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2022-10-05T19:58:15.748Z'
+  'npm:extend:20180424':
+    - react-scripts-ts > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-10-05T19:58:15.748Z'
+  'npm:hoek:20180212':
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T19:58:15.748Z'
+  SNYK-JS-LODASH-567746:
+    - react-scripts-ts > html-webpack-plugin > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-manifest-plugin > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > extract-text-webpack-plugin > async > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > source-map-loader > async > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > async > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > react-dev-utils > inquirer > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > async > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-register > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-register > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > babel-jest > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T19:58:15.748Z'
+  'npm:stringstream:20180511':
+    - react-scripts-ts > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > ts-jest > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-10-05T19:58:15.748Z'
+  'npm:tough-cookie:20170905':
+    - react-scripts-ts > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-05T19:58:15.748Z'
+    - react-scripts-ts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2022-10-05T19:58:15.748Z'
